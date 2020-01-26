@@ -32,6 +32,17 @@ public class User {
     @Column(name = "role")
     private Role role;
 
+    public User() {
+    }
+
+    public User(Long id, String name, String userName, String password, Role role) {
+        this.id = id;
+        this.name = name;
+        this.userName = userName;
+        this.password = password;
+        this.role = role;
+    }
+
     public Long getId() {
         return id;
     }
@@ -50,6 +61,42 @@ public class User {
 
     public Role getRole() {
         return role;
+    }
+
+    public static class Builder {
+        private final Long id;
+        private String name;
+        private String userName;
+        private String password;
+        private Role role;
+
+        public Builder(Long id) {
+            this.id = id;
+        }
+
+        public Builder name(String name) {
+            this.name = name;
+            return this;
+        }
+
+        public Builder userName(String userName) {
+            this.userName = userName;
+            return this;
+        }
+
+        public Builder password(String password) {
+            this.password = password;
+            return this;
+        }
+
+        public Builder role(Role role) {
+            this.role = role;
+            return this;
+        }
+
+        public User build() {
+            return new User(this.id, this.name, this.userName, this. password, this.role);
+        }
     }
 
     @Override
