@@ -1,4 +1,4 @@
-package com.codingviews.services.user.validator;
+package com.codingviews.cm.services.user.validator;
 
 @FunctionalInterface
 public interface Validator<T> {

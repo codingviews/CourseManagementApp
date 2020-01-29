@@ -1,7 +1,7 @@
-package com.codingviews.services.user.service;
+package com.codingviews.cm.services.user.service;
 
-import com.codingviews.services.user.model.User;
-import com.codingviews.services.user.repository.UserRepository;
+import com.codingviews.cm.services.user.model.User;
+import com.codingviews.cm.services.user.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

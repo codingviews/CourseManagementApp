@@ -1,4 +1,4 @@
-package com.codingviews.services.user;
+package com.codingviews.cm.services.user;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

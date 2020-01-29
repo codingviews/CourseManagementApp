@@ -8,4 +8,4 @@ ${AnsiColor.BRIGHT_CYAN}
                                   __/ |
                                  |___/
 
-:: Course Management Application ::       v${project.version}
+:: Course Management Application - User Service::       v${project.version}

@@ -1,9 +1,9 @@
-package com.codingviews.services.user.controller;
+package com.codingviews.cm.services.user.controller;
 
-import com.codingviews.services.user.model.Role;
-import com.codingviews.services.user.model.User;
-import com.codingviews.services.user.service.UserService;
-import com.codingviews.services.user.validator.Validator;
+import com.codingviews.cm.services.user.model.Role;
+import com.codingviews.cm.services.user.model.User;
+import com.codingviews.cm.services.user.service.UserService;
+import com.codingviews.cm.services.user.validator.Validator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

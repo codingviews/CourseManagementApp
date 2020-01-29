@@ -1,8 +1,8 @@
-package com.codingviews.services.user;
+package com.codingviews.cm.services.user;
 
-import com.codingviews.services.user.model.User;
-import com.codingviews.services.user.validator.UserValidator;
-import com.codingviews.services.user.validator.Validator;
+import com.codingviews.cm.services.user.model.User;
+import com.codingviews.cm.services.user.validator.UserValidator;
+import com.codingviews.cm.services.user.validator.Validator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

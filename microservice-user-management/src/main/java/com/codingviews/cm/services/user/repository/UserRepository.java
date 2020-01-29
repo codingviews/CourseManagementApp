@@ -1,6 +1,6 @@
-package com.codingviews.services.user.repository;
+package com.codingviews.cm.services.user.repository;
 
-import com.codingviews.services.user.model.User;
+import com.codingviews.cm.services.user.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

@@ -1,4 +1,4 @@
-package com.codingviews.services.user.model;
+package com.codingviews.cm.services.user.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

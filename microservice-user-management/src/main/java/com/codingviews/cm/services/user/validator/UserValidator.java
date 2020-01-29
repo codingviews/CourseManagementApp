@@ -1,6 +1,6 @@
-package com.codingviews.services.user.validator;
+package com.codingviews.cm.services.user.validator;
 
-import com.codingviews.services.user.model.User;
+import com.codingviews.cm.services.user.model.User;
 
 public class UserValidator implements Validator<User> {
     @Override

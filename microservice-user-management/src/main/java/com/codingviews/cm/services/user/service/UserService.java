@@ -1,6 +1,6 @@
-package com.codingviews.services.user.service;
+package com.codingviews.cm.services.user.service;
 
-import com.codingviews.services.user.model.User;
+import com.codingviews.cm.services.user.model.User;
 
 import java.util.List;
 
